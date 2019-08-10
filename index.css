@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(87, 140, 2, 0.616);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#About {
+    background-color: rgb(10,142,200);
+    height: 85vh;
+}
+
+#About p.lead {
+    color: rgb(231, 216, 3);
+}
+
+#About img { 
+    height: 50vh;
+    
+
+}
+
+#About, #Projects, #Interests {
+    margin-top: 50px;
+}
+
+#navigationBar {
+    width: 100%;
+}
+
+.card-group .card, #About, .carousel-item {
+    height: 85vh;
+}
+
+.card-group .card img {
+    max-height: 100vh;
+}
+
+.carousel-item img{
+    max-height:100%;
+}
+
+.carousel-item p {
+    background-color: rgba(255,0,0,0.6);
+}
+
+.navbar-nav .nav-item.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item.nav-link.active,
+.navbar-nav .nav-item.nav-link:hover {
+    color: rgb(10, 170, 170);
+}
+
+.socialMedia i{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+}
